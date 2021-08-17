@@ -70,7 +70,7 @@ document.getElementById("withdrawButton").addEventListener("click", function () 
         
     }
     if (withdrawAmount > currentBalance) {
-        alert("You can't withdraw mare than what you have in your account. Your current Balance is: "+currentBalance)
+        alert("You can't withdraw more than what you have in your account. Your current Balance is: "+currentBalance)
        
     }
 
